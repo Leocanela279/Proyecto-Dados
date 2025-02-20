@@ -1,3 +1,7 @@
+const button = document.querySelector("button");
+
+button.addEventListener("click", () => {
+
 let randomNum1 = Math.floor(Math.random() * 6) + 1;
 let randomNum2 = Math.floor(Math.random() * 6) + 1;
 
@@ -10,3 +14,5 @@ else if (randomNum1 < randomNum2)
     document.querySelector("h1").textContent = "Player 2 Wins! 🚩";
 else
     document.querySelector("h1").textContent = "Draw!";
+
+});

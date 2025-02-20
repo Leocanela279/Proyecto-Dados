@@ -41,3 +41,17 @@ footer {
     font-family: 'Indie Flower', cursive;
 
 }
+
+button {
+    background-color: rgb(142, 0, 0);
+    color: white;
+    font-weight: bold;
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.5rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 70px;
+    margin-left: 45%;
+}
